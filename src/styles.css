@@ -84,6 +84,7 @@ p {
   font-weight: 300;
   padding-top: 5px;
   margin-top: 20px;
+  transition: 0.3s;
 }
 
 .button:hover {
@@ -91,8 +92,8 @@ p {
 }
 
 .button:active {
-  background-color: #a9a9a9;
-  color: #808080;
+  background-color: #a7421a;
+  color: #a7421a;
 }
 
 .socials {
@@ -102,6 +103,7 @@ p {
 .logo {
   height: 80px;
   margin: 30px;
+  cursor: pointer;
 }
 .social {
   margin: 20px;
@@ -177,6 +179,7 @@ a {
     font-size: 30px;
     margin: 20px;
     align-self: flex-end;
+    cursor: pointer;
   }
 
   ul {
