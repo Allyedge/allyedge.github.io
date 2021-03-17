@@ -106,16 +106,16 @@ p {
   font-weight: 300;
   padding-top: 5px;
   margin-top: 20px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .button:hover {
-  background-color: #4b77ef;
+  background-color: #4b98ef;
 }
 
 .button:active {
-  background-color: #1a68a7;
-  color: #1a6fa7;
+  background-color: #1a52a7;
+  color: #1a52a7;
 }
 
 .socials {
