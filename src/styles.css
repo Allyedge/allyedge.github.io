@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +37,8 @@ ul {
   list-style-type: none;
   width: 500px;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 20px;
+  align-items: center;
 }
 
 li {
@@ -45,6 +48,15 @@ li {
 h1 {
   font-size: 90px;
   margin: 0;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: default;
+}
+
+h1:hover {
+  color: #4b77ef;
 }
 
 h2 {
@@ -69,6 +81,16 @@ p {
   align-items: center;
 }
 
+.type {
+  cursor: default;
+}
+
+.sticky {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffcc;
+}
+
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
@@ -78,7 +100,7 @@ p {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  background-color: coral;
+  background-color: #4b77ef;
   text-align: center;
   font-size: 30px;
   font-weight: 300;
@@ -88,12 +110,12 @@ p {
 }
 
 .button:hover {
-  background-color: #ef744b;
+  background-color: #4b77ef;
 }
 
 .button:active {
-  background-color: #a7421a;
-  color: #a7421a;
+  background-color: #1a68a7;
+  color: #1a6fa7;
 }
 
 .socials {
@@ -102,11 +124,25 @@ p {
 
 .logo {
   height: 80px;
-  margin: 30px;
+  margin-left: 80px;
+  margin-top: 30px;
   cursor: pointer;
+  font-family: "Akaya Telivigala", cursive;
 }
+
 .social {
   margin: 20px;
+}
+
+svg {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+svg:hover {
+  fill: #4ba0ef;
 }
 
 .sub-section {
@@ -200,5 +236,10 @@ a {
 
   .logo {
     display: none;
+  }
+
+  .hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
   }
 }
