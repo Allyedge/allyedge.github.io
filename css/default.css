@@ -340,11 +340,11 @@ h6 {
   background-color: #fff;
   padding: 15px;
   border-radius: 0px 0px 10px 10px;
-  background-color: #192734;
+  background-color: var(--previewBg);
 }
 
 .post-title {
-  color: white;
+  color: var(--mainText);
   margin: 0;
 }
 
