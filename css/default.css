@@ -328,6 +328,10 @@ h6 {
   cursor: pointer;
 }
 
+.post:hover {
+  transform: scale(1.05);
+}
+
 .thumbnail {
   display: block;
   width: 100%;
